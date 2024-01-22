@@ -28,7 +28,7 @@ jobs:
       - name: Run Loconotion
         run: |
           # python3 loconotion/loconotion --chromedriver chromedriver "pages_repo/site.toml"
-          python3 loconotion/loconotion --dark-mode "https://yummy-fold-a5b.notion.site/sochin-studio-6f005bf4019f4f7abe2e975766906443"
+          python3 loconotion/notionsnapshot --dark-mode "https://yummy-fold-a5b.notion.site/sochin-studio-6f005bf4019f4f7abe2e975766906443"
       - name: Push to GitHub pages
         run: |
           git config --global user.name "github-actions[bot]"
