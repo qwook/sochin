@@ -8,3 +8,5 @@ name = "site"
 
 # This page should be the root of your website. It's important.
 page = "https://yummy-fold-a5b.notion.site/sochin-studio-6f005bf4019f4f7abe2e975766906443"
+
+theme = "dark"
