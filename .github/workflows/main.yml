@@ -14,8 +14,8 @@ jobs:
       - name: Checkout loconotion
         uses: actions/checkout@v3
         with:
-          # repository: leoncvlt/loconotion
-          repository: sueszli/notionSnapshot
+          repository: leoncvlt/loconotion
+          # repository: sueszli/notionSnapshot
           path: loconotion
       - name: Checkout this repo
         uses: actions/checkout@v3
@@ -27,15 +27,15 @@ jobs:
         run: pip install -r loconotion/requirements.txt
       - name: Run Loconotion
         run: |
-          # python3 loconotion/loconotion --chromedriver chromedriver "pages_repo/site.toml"
-          python3 loconotion/notionsnapshot --dark-mode "https://yummy-fold-a5b.notion.site/sochin-studio-6f005bf4019f4f7abe2e975766906443"
+          python3 loconotion/loconotion --chromedriver chromedriver "pages_repo/site.toml"
+          # python3 loconotion/notionsnapshot --dark-mode "https://www.notion.so/sochin-studio-6f005bf4019f4f7abe2e975766906443"
       - name: Push to GitHub pages
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          # GIT_DEPLOY_DIR=../dist/site \
+          GIT_DEPLOY_DIR=../dist/site \
           # GIT_DEPLOY_DIR=../snapshots/sochin-studio \
-          GIT_DEPLOY_DIR=../snapshots \
+          # GIT_DEPLOY_DIR=../snapshots \
           GIT_DEPLOY_BRANCH=gh-pages \
           GIT_DEPLOY_REPO="https://${{ github.token }}@github.com/${{ github.repository }}.git" ./deploy.sh
         working-directory: pages_repo
