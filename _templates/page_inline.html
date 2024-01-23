@@ -1,0 +1,12 @@
+<h6 class="inline-title">{{ page.title }}</h6>
+<div class="page-content">
+  {% block page_content %}
+  {% if 'db_list' in page.keys() %}
+  {% include '_list.html' %}
+  {% elif page.type == 'database' %}
+  {% include '_gallery.html' %}
+  {% else %}
+  {{ content }}
+  {% endif %}
+  {% endblock page_content %}
+</div>

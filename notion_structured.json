@@ -1,0 +1,289 @@
+{
+    "pages": {
+        "6f005bf4-019f-4f7a-be2e-975766906443": {
+            "files": [
+                "http://localhost:8000/sochin_logo_dithered.gif"
+            ],
+            "type": "page",
+            "title": "sochin studio",
+            "last_edited_time": "2024-01-23T04:45:00+00:00",
+            "parent": null,
+            "children": [
+                "0dc3a9e6-9035-4602-aafc-6ae4fd074da0",
+                "9991fdbf-e970-4e74-8b17-9e46a8c4f292",
+                "3701fb56-fd5e-4810-8b3d-65b83ccacd14"
+            ],
+            "cover": null,
+            "icon": "http://localhost:8000/sochin_logo_dithered.gif",
+            "emoji": null,
+            "properties": {
+                "title": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "sochin studio",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "sochin studio",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "family_line": [],
+            "url": "http://localhost:8000",
+            "md_content": "**sochin** creates story-driven games that aims to bring Henry’s savings down to zero.\n\n<br/>\n\n[<span class=\"miniicon\"> <img src=\"http://localhost:8000/work_with_us/briefcase_gray.svg\"></span> <span class=\"page-title-link\">work with us](http://localhost:8000/work_with_us)\n\n</span>[<span class=\"miniicon\"> <img src=\"http://localhost:8000/sochin_meaning/question-mark_gray.svg\"></span> <span class=\"page-title-link\">sochin meaning](http://localhost:8000/sochin_meaning)\n\n</span><br/>\n\n<h6 class=\"inline-title\">games</h6>\n<div class=\"page-content\">\n  \n  \n  <div class=\"gallery\">\n    \n    \n    <div class=\"card\">\n        <a href=\"http://localhost:8000/games/last_seen_online\">\n        \n        <img id=\"card-image\" src=\"http://localhost:8000/games/last_seen_online/social_media_promo.png\">\n        \n        <div class=\"card-desc\">\n            \n            <strong>last seen online</strong>\n            <br />\n            \n            \n            “last seen online” is a psychological horror escape room, based on early flash games. Look through someone's computer files. Solve puzzles and discover the secrets that lie within the computer.\n            \n            \n            <div style=\"text-align: right;\">\n              <a class=\"play-now-button\" target=\"_blank\" href=\"http://lastseenonline.com/\">Play Now.</a>\n            </div>\n            \n        </div>\n        </a>\n    </div>\n      <!-- <div class=\"card-tags\"> TAGS ARE COMING\n        <div class=\"card-tag\"> \n          arxiv\n        </div>\n        <div class=\"card-tag\"> \n          code\n        </div> \n      </div> --> \n    \n</div>\n  \n  \n</div><br/>\n"
+        },
+        "0dc3a9e6-9035-4602-aafc-6ae4fd074da0": {
+            "files": [
+                "http://localhost:8000/work_with_us/briefcase_gray.svg"
+            ],
+            "type": "page",
+            "title": "work with us",
+            "last_edited_time": "2024-01-23T03:51:00+00:00",
+            "parent": "6f005bf4-019f-4f7a-be2e-975766906443",
+            "children": [],
+            "cover": null,
+            "icon": "http://localhost:8000/work_with_us/briefcase_gray.svg",
+            "emoji": null,
+            "properties": {
+                "title": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "work with us",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "work with us",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "family_line": [
+                "6f005bf4-019f-4f7a-be2e-975766906443"
+            ],
+            "url": "http://localhost:8000/work_with_us",
+            "md_content": "Here at **sochin**, we believe that great games come from tiny teams with strong direction, this means that one person should own at least 80% of the game – from coding, to writing, sound design, and game design.\n\nWe are currently not hiring because this studio is just Henry and Henry can’t afford to pay anyone, but if you reach out then Henry might help you build, release, and publish your game. Henry can also help you publish games through this LLC where he won’t take any profit, if the game fits the values of Sochin. IDK, still figuring this whole LLC thing out.\n\n<br/>\n"
+        },
+        "9991fdbf-e970-4e74-8b17-9e46a8c4f292": {
+            "files": [
+                "http://localhost:8000/sochin_meaning/question-mark_gray.svg",
+                "http://localhost:8000/sochin_meaning/Untitled.png",
+                "http://localhost:8000/sochin_meaning/Untitled.png",
+                "http://localhost:8000/sochin_meaning/Untitled.png"
+            ],
+            "type": "page",
+            "title": "sochin meaning",
+            "last_edited_time": "2024-01-23T03:59:00+00:00",
+            "parent": "6f005bf4-019f-4f7a-be2e-975766906443",
+            "children": [],
+            "cover": null,
+            "icon": "http://localhost:8000/sochin_meaning/question-mark_gray.svg",
+            "emoji": null,
+            "properties": {
+                "title": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "sochin meaning",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "sochin meaning",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "family_line": [
+                "6f005bf4-019f-4f7a-be2e-975766906443"
+            ],
+            "url": "http://localhost:8000/sochin_meaning",
+            "md_content": "sochin means **number 9 **in Vietnamese. It also means **preserve the peace** in Japanese. It’s a form of karate. It’s the number of letters in my first and last name. The Beatles released a song called **Revolution No. 9** where the lyrics repeat “Number Nine” over and over again, which inspired **Takahiro Miyashata** to create a fashion brand named Number (N)ine. When you multiply any number by 9, then add the digits up until it becomes a single digit number, you always get 9. Most importantly, the SEO for this name is pretty good for a short name.\n\nThe name is mostly meaningless, so you can fill it with whatever meaning you want. Choose whatever from the above feels best for you. In a way, (here’s the deep part) it’s a lot like life: empty, meaningless, maybe has some of the past slightly attached – but every day is a new day and you will always have an opportunity to write your own meaning.\n\n<br/>\n\n![The pale blue dot, a picture of the Earth from far away. It is just a pixel from this vantage point. Our lives, from this scale, are meaningless.](http://localhost:8000/sochin_meaning/Untitled.png)\n\n<br/>\n"
+        },
+        "3701fb56-fd5e-4810-8b3d-65b83ccacd14": {
+            "files": [],
+            "type": "database",
+            "title": "games",
+            "last_edited_time": "2024-01-23T04:46:00+00:00",
+            "parent": "6f005bf4-019f-4f7a-be2e-975766906443",
+            "children": [
+                "b46806bc-5e46-45fe-a214-c5a0a9ad9c45"
+            ],
+            "cover": null,
+            "icon": null,
+            "emoji": null,
+            "properties": {
+                "Created": {
+                    "id": "BFOO",
+                    "name": "Created",
+                    "type": "created_time",
+                    "created_time": {}
+                },
+                "PlayNow": {
+                    "id": "WTb%3D",
+                    "name": "PlayNow",
+                    "type": "url",
+                    "url": {}
+                },
+                "Tags": {
+                    "id": "a%7D%3Cd",
+                    "name": "Tags",
+                    "type": "multi_select",
+                    "multi_select": {
+                        "options": []
+                    }
+                },
+                "Description": {
+                    "id": "inXd",
+                    "name": "Description",
+                    "type": "rich_text",
+                    "rich_text": {}
+                },
+                "Name": {
+                    "id": "title",
+                    "name": "Name",
+                    "type": "title",
+                    "title": {}
+                }
+            },
+            "family_line": [
+                "6f005bf4-019f-4f7a-be2e-975766906443"
+            ],
+            "url": "http://localhost:8000/games",
+            "md_content": "[last seen online](http://localhost:8000/games/last_seen_online)\n"
+        },
+        "b46806bc-5e46-45fe-a214-c5a0a9ad9c45": {
+            "files": [
+                "http://localhost:8000/games/last_seen_online/social_media_promo.png"
+            ],
+            "type": "db_entry",
+            "title": "last seen online",
+            "last_edited_time": "2024-01-23T01:24:00+00:00",
+            "parent": "3701fb56-fd5e-4810-8b3d-65b83ccacd14",
+            "children": [],
+            "cover": "http://localhost:8000/games/last_seen_online/social_media_promo.png",
+            "icon": null,
+            "emoji": null,
+            "properties": {
+                "Created": {
+                    "id": "BFOO",
+                    "type": "created_time",
+                    "created_time": "2024-01-22T21:44:00.000Z"
+                },
+                "PlayNow": {
+                    "id": "WTb%3D",
+                    "type": "url",
+                    "url": "http://lastseenonline.com/"
+                },
+                "Tags": {
+                    "id": "a%7D%3Cd",
+                    "type": "multi_select",
+                    "multi_select": []
+                },
+                "Description": {
+                    "id": "inXd",
+                    "type": "rich_text",
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "“last seen online” is a psychological horror escape room, based on early flash games. Look through someone's computer files. Solve puzzles and discover the secrets that lie within the computer.",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "“last seen online” is a psychological horror escape room, based on early flash games. Look through someone's computer files. Solve puzzles and discover the secrets that lie within the computer.",
+                            "href": null
+                        }
+                    ]
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "last seen online",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "last seen online",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "family_line": [
+                "6f005bf4-019f-4f7a-be2e-975766906443",
+                "3701fb56-fd5e-4810-8b3d-65b83ccacd14"
+            ],
+            "url": "http://localhost:8000/games/last_seen_online",
+            "md_content": "",
+            "properties_md": {
+                "Created": "22 Jan, 2024",
+                "PlayNow": "[http://lastseenonline.com/](http://lastseenonline.com/)",
+                "Tags": "",
+                "Description": "“last seen online” is a psychological horror escape room, based on early flash games. Look through someone's computer files. Solve puzzles and discover the secrets that lie within the computer."
+            }
+        }
+    },
+    "urls": [
+        "http://localhost:8000",
+        "http://localhost:8000/work_with_us",
+        "http://localhost:8000/sochin_meaning",
+        "http://localhost:8000/games",
+        "http://localhost:8000/games/last_seen_online"
+    ],
+    "root_page_id": "6f005bf4-019f-4f7a-be2e-975766906443",
+    "include_footer": null,
+    "base_url": "http://localhost:8000",
+    "sorted_id_by_year": {}
+}
