@@ -34,7 +34,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           # HERE, YOU NEED TO PLACE YOUR REPOSITORY
-          repository: "MerkulovDaniil/merkulovdaniil.github.io"
+          repository: "qwook/sochin"
           # TARGET BRANCH
           ref: main
           # THE FOLDER, WHERE NOTION4EVER EXPORTS YOUR CONTENT BY DEFAULT
