@@ -1,11 +1,11 @@
 ---
-title: sochin studio
+title: sochin
 cover: None
 icon: https://sochinstudio.com/sochin_logo_dithered.gif
 emoji: None
 ---
 
-**sochin** creates story-driven games that aims to bring Henry’s savings down to zero.
+we create story-driven games that aims to bring Henry’s savings down to zero.
 
 <br/>
 
@@ -58,3 +58,5 @@ emoji: None
 </div><br/>
 
 <br/>
+
+© sochin studio LLC
