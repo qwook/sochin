@@ -18,8 +18,6 @@
                 Dates: {{ page['date'].strftime("%d %b, %Y") }} - {{ page['date_end'].strftime("%d %b, %Y") }}
                 {% elif page.date %}
                 Date: {{ page['date'].strftime("%d %b, %Y") }}
-                {% else %}
-                Last edited: {{ page['last_edited_time'].strftime("%d %b, %Y") }}
                 {% endif %}
               </time>
             </p>
