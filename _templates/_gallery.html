@@ -12,7 +12,16 @@
             {% elif db_entry.icon %}
             <span><span class="miniicon">  <img src="{{db_entry.icon}}">  </span> {{db_entry.title}} </span>
             {% else %}
-            {{db_entry.title}}
+            <strong>{{db_entry.title}}</strong>
+            <br />
+            {% endif %}
+            {% if db_entry.properties.Description %}
+            {{db_entry.properties.Description.rich_text[0].plain_text}}
+            {% endif %}
+            {% if db_entry.properties.PlayNow %}
+            <div style="text-align: right;">
+              <a class="play-now-button" target="_blank" href="{{db_entry.properties.PlayNow.url}}">Play Now.</a>
+            </div>
             {% endif %}
         </div>
         </a>
