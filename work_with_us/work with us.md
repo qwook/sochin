@@ -1,7 +1,7 @@
 ---
 title: work with us
 cover: None
-icon: http://localhost:8000/work_with_us/briefcase_gray.svg
+icon: https://sochinstudio.com/work_with_us/briefcase_gray.svg
 emoji: None
 ---
 

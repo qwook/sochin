@@ -1,7 +1,7 @@
 ---
 title: sochin studio
 cover: None
-icon: http://localhost:8000/sochin_logo_dithered.gif
+icon: https://sochinstudio.com/sochin_logo_dithered.gif
 emoji: None
 ---
 
@@ -9,9 +9,9 @@ emoji: None
 
 <br/>
 
-[<span class="miniicon"> <img src="http://localhost:8000/work_with_us/briefcase_gray.svg"></span> <span class="page-title-link">work with us](http://localhost:8000/work_with_us)
+[<span class="miniicon"> <img src="https://sochinstudio.com/work_with_us/briefcase_gray.svg"></span> <span class="page-title-link">work with us](https://sochinstudio.com/work_with_us)
 
-</span>[<span class="miniicon"> <img src="http://localhost:8000/sochin_meaning/question-mark_gray.svg"></span> <span class="page-title-link">sochin meaning](http://localhost:8000/sochin_meaning)
+</span>[<span class="miniicon"> <img src="https://sochinstudio.com/sochin_meaning/question-mark_gray.svg"></span> <span class="page-title-link">sochin meaning](https://sochinstudio.com/sochin_meaning)
 
 </span><br/>
 
@@ -23,9 +23,9 @@ emoji: None
     
     
     <div class="card">
-        <a href="http://localhost:8000/games/last_seen_online">
+        <a href="https://sochinstudio.com/games/last_seen_online">
         
-        <img id="card-image" src="http://localhost:8000/games/last_seen_online/social_media_promo.png">
+        <img id="card-image" src="https://sochinstudio.com/games/last_seen_online/social_media_promo.png">
         
         <div class="card-desc">
             
@@ -56,3 +56,5 @@ emoji: None
   
   
 </div><br/>
+
+<br/>

@@ -1,2 +1,5 @@
 .env
 .DS_Store
+notion_content.json
+notion_structured.json
+_site

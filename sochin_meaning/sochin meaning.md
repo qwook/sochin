@@ -1,7 +1,7 @@
 ---
 title: sochin meaning
 cover: None
-icon: http://localhost:8000/sochin_meaning/question-mark_gray.svg
+icon: https://sochinstudio.com/sochin_meaning/question-mark_gray.svg
 emoji: None
 ---
 
@@ -11,6 +11,6 @@ The name is mostly meaningless, so you can fill it with whatever meaning you wan
 
 <br/>
 
-![The pale blue dot, a picture of the Earth from far away. It is just a pixel from this vantage point. Our lives, from this scale, are meaningless.](http://localhost:8000/sochin_meaning/Untitled.png)
+![The pale blue dot, a picture of the Earth from far away. It is just a pixel from this vantage point. Our lives, from this scale, are meaningless.](https://sochinstudio.com/sochin_meaning/Untitled.png)
 
 <br/>
