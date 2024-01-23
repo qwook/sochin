@@ -1,11 +1,12 @@
-name: Deploy to Pages
+name: Deploy from Notion to Pages
 
-on: [workflow_dispatch]
-#  schedule:
-#    - cron: "*/20 * * * *"
+# on: [workflow_dispatch]
+on:
+  schedule:
+    - cron: "0 */12 * * *"
 
 jobs:
-  generate-restruct-update:
+  download_old-generate-push:
     runs-on: ubuntu-latest
 
     steps:
@@ -15,46 +16,42 @@ jobs:
           wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
           sudo apt install ./google-chrome-stable_current_amd64.deb
           sudo apt-get update
+
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: 3.8
-      - name: Download loconotion
+          python-version: 3.10.0
+
+      - name: Download notion4ever
         uses: actions/checkout@v2
         with:
-          repository: "leoncvlt/loconotion"
-      - name: Install loconotion
+          repository: "MerkulovDaniil/notion4ever"
+
+      - name: Install packages
         run: pip install -r requirements.txt
-      - name: Configuration File
-        run: |
-          cat >  ${GITHUB_WORKSPACE}/config.toml  << EOF
-          ${{ secrets.SITE_CONFIG }}
-          EOF
-      - name: Run loconotion
-        run: python loconotion ${GITHUB_WORKSPACE}/config.toml
-      - name: Copy structuring script
-        run: wget -O ${GITHUB_WORKSPACE}/dist/output/struct.py "https://gist.githubusercontent.com/MerkulovDaniil/f4f785450db53e412d6c61c8af9ca2b6/raw/6fed3666e340bf98162b5ce66da99e09842ac4c0/loconotion_struct.py"
-      - name: Clean structuring
-        run: |
-          cd ${GITHUB_WORKSPACE}/dist/output/
-          python struct.py
-      - name: List files in the repository
-        run: ls ${GITHUB_WORKSPACE}/dist/output
+
+      - name: Download current version of the site
+        uses: actions/checkout@v2
+        with:
+          # HERE, YOU NEED TO PLACE YOUR REPOSITORY
+          repository: "MerkulovDaniil/merkulovdaniil.github.io"
+          # TARGET BRANCH
+          ref: main
+          # THE FOLDER, WHERE NOTION4EVER EXPORTS YOUR CONTENT BY DEFAULT
+          path: _site
+
+      - name: Run notion4ever
+        run: python -m notion4ever
+        env:
+          # HERE YOU NEED TO PLACE URL OF THE ROOT PAGE. PROBABLY IT IS "https://<username>.github.io"
+          SITE_URL: "https://merkulov.top"
+          NOTION_TOKEN: ${{secrets.NOTION_TOKEN}}
+          NOTION_PAGE_ID: ${{secrets.NOTION_PAGE_ID}}
 
       - name: Deploy to Pages
         uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: main
-          FOLDER: dist/output
-          CLEAN: true
-      # - name: Push to GitHub pages
-      #   run: |
-      #     git config --global user.name "github-actions[bot]"
-      #     git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-      #     GIT_DEPLOY_DIR=../dist/site \
-      #     # GIT_DEPLOY_DIR=../snapshots/sochin-studio \
-      #     # GIT_DEPLOY_DIR=../snapshots \
-      #     GIT_DEPLOY_BRANCH=gh-pages \
-      #     GIT_DEPLOY_REPO="https://${{ github.token }}@github.com/${{ github.repository }}.git" ./deploy.sh
-      #   working-directory: pages_repo
+          FOLDER: _site
+          COMMIT_MESSAGE: 🤖 Deployed via notion4ever.
