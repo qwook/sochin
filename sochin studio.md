@@ -11,7 +11,7 @@ emoji: None
 
 [💼 work with us](https://sochinstudio.com/work_with_us)
 
-[what is sochin?](https://www.notion.so/5309acaeef104f23aba826f018e8df45) 
+[❓ what is sochin](https://sochinstudio.com/what_is_sochin)
 
 <br/>
 
