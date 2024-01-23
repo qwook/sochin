@@ -199,6 +199,12 @@ def parse_headers(raw_notion: dict) -> dict:
         else:
             notion_pages[page_id]["properties"] = None
 
+        # Plaintext
+        if "plaintext" in page.keys() and page["plaintext"] is not None:
+            notion_pages[page_id]["plaintext"] = page["plaintext"]
+        else:
+            notion_pages[page_id]["plaintext"] = None
+
 
     return notion_pages
 

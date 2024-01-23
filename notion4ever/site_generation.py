@@ -74,6 +74,7 @@ def generate_page_inline(page_id: str, structured_notion: dict, config: dict):
     metadata = (
         "---\n"
         f"title: {page['title']}\n"
+        f"plaintext: {page['plaintext']}\n"
         f"cover: {page['cover']}\n"
         f"icon: {page['icon']}\n"
         f"emoji: {page['emoji']}\n"
