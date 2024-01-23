@@ -9,3 +9,4 @@ markdown-captions
 markdown-checklist
 Pygments
 python-dotenv
+bs4

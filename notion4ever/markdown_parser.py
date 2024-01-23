@@ -7,6 +7,9 @@ from urllib.parse import urljoin
 from urllib.parse import urlparse
 from urllib.parse import unquote
 
+from bs4 import BeautifulSoup
+import markdown
+
 from notion4ever.site_generation import generate_page_inline
 
 
@@ -509,3 +512,34 @@ def parse_markdown(raw_notion: dict, structured_notion: dict):
         page_md = page_md.replace("\n\n\n", "\n\n")
         # page_md = code_aligner(page_md)
         structured_notion["pages"][page_id]["md_content"] = page_md
+        # Parse markdown and extract only plaintext.
+
+        parsed_down = markdown.markdown(
+            page_md,
+            extensions=[
+                "meta",
+                "tables",
+                "mdx_truly_sane_lists",
+                "markdown_captions",
+                "pymdownx.tilde",
+                "pymdownx.tasklist",
+                "pymdownx.superfences",
+            ],
+            extension_configs={
+                "mdx_truly_sane_lists": {
+                    "nested_indent": 4,
+                    "truly_sane": True,
+                },
+                "pymdownx.tasklist": {
+                    "clickable_checkbox": True,
+                },
+            },
+        )
+
+        # Convert all HTML into plaintex
+        soup = BeautifulSoup(parsed_down, features="html.parser")
+        for tag in soup.findAll(True):
+            tag.attrs = None
+        plaintext = soup.get_text()
+        structured_notion["pages"][page_id]["plaintext"] = plaintext
+        

@@ -56,7 +56,3 @@ we create story-driven games that aims to bring Henry’s savings down to zero.
   
   
 </div><br/>
-
-<br/>
-
-© sochin studio LLC
