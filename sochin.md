@@ -7,6 +7,8 @@ emoji: None
 
 we create story-driven games that aims to bring Henry’s savings down to zero.
 
+[contact me](https://twitter.com/henryqtran)
+
 <br/>
 
 [<span class="miniicon"> <img src="https://sochinstudio.com/work_with_us/briefcase_gray.svg"></span> <span class="page-title-link">work with us](https://sochinstudio.com/work_with_us)
