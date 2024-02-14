@@ -15,6 +15,8 @@ we create story-driven games that aims to bring Henry’s savings down to zero.
 
 </span>[<span class="miniicon"> <img src="https://sochinstudio.com/sochin_meaning/question-mark_gray.svg"></span> <span class="page-title-link">sochin meaning](https://sochinstudio.com/sochin_meaning)
 
+</span>[<span class="miniicon"> <img src="https://sochinstudio.com/eula/document_gray.svg"></span> <span class="page-title-link">eula](https://sochinstudio.com/eula)
+
 </span><br/>
 
 <h6 class="inline-title">games</h6>
