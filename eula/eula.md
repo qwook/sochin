@@ -9,7 +9,9 @@ emoji: None
 
 ### SUMMARY
 
-This End User License Agreement (EULA) is all about the rules of the game for using Last Seen Online. It's got all the details on stuff like your license to play the game, what you can and can't do, the cool content you make, who owns the game, changes, how this agreement can be ended, warranty stuff, how we sort out disagreements, and all the other general stuff. By jumping into Last Seen Online, you’re agreeing to all of this.
+This End User License Agreement (EULA) tells you how you can use Last Seen Online. We try to protect streamers or let’s play and allow them to monetize off of playing the game. We also love fan-content and fan-art and want our players to create more. We’re trying to protect ourselves from people taking our assets and using it in their own disingenuous product – whether to make a clone of the game or to use images, sounds, music in something that has very little to do with Last Seen Online.
+
+So – this EULA talks about your license to play the game, what you can and can't do, the fan-content you make, who owns the game, changes, warranty stuff, and how we sort out disagreements. By jumping into Last Seen Online, you’re agreeing to all of this.
 
 ### 1. INTRODUCTION
 
@@ -41,16 +43,18 @@ While we strive to provide a satisfying user experience, Sochin Studio LLC makes
 
 ### 7. TERMINATION
 
-We reserve the right to terminate this Agreement at any time if you fail to comply with any term(s) of this Agreement.
+The Licensee may terminate this EULA for the future at any time by ceasing the use of the Game and promptly destroying and deleting all copies, including any documentation. However, any assets, screenshots, videos, or other content captured or derived from your use of the Game while this EULA was in effect remain subject to the terms of this Agreement.
 
-### 9. DISPUTE RESOLUTION
+### 8. DISPUTE RESOLUTION
 
 If you are a resident in the United States, you agree to resolve any and all disputes with Sochin Studio LLC through binding arbitration on an individual basis, and you waive your right to participate in a class action lawsuit or class-wide arbitration.
 
-### 10. SUBJECT TO CHANGE
+### 9. SUBJECT TO CHANGE
 
 We reserve the right to amend this Agreement at any time and without notice. It is your responsibility to periodically review this Agreement to stay informed of any changes. Your continued use of the Game following the posting of changes will mean that you accept and agree to the changes.
 
 ### 10. GENERAL
 
 If you have any questions about this Agreement, please contact us.
+
+<br/>
