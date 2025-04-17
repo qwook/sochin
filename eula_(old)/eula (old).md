@@ -1,9 +1,11 @@
 ---
-title: eula
+title: eula (old)
 cover: None
-icon: https://sochinstudio.com/eula/document_gray.svg
+icon: https://sochinstudio.com/eula_(old)/document_gray.svg
 emoji: None
 ---
+
+❗ Note, this EULA is no longer needed to play Last Seen Online after April 7, 2025 and is only here for historical purposes.
 
 ## LAST SEEN ONLINE END USER LICENSE AGREEMENT
 
